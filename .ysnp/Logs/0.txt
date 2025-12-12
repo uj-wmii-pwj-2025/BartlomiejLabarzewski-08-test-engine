@@ -1,0 +1,13 @@
+Message:
+java.lang.NullPointerException
+
+Stack trace:
+uj.wmii.pwj.anns.tests.ManyTests.imFailue(ManyTests.java:28)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:569)
+uj.wmii.pwj.anns.MyTestEngine.launchSingleTest(MyTestEngine.java:125)
+uj.wmii.pwj.anns.MyTestEngine.launchSingleMethod(MyTestEngine.java:70)
+uj.wmii.pwj.anns.MyTestEngine.runTests(MyTestEngine.java:44)
+uj.wmii.pwj.anns.YouShallNotPass.main(YouShallNotPass.java:51)

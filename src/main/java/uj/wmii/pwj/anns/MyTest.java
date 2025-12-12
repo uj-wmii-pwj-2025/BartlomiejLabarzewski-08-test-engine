@@ -1,12 +1,11 @@
 package uj.wmii.pwj.anns;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
 
+@Repeatable(MyTests.class)
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface MyTest {
-    String[] params() default {};
+    String param() default "";
+    TestResult expectedResult() default TestResult.PASS;
 }
